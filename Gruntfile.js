@@ -18,6 +18,7 @@ module.exports = function(grunt) {
 		// Copy params to local scope
 		config: config,
 
+		// Sass task
 		sass: {
 			dist: {
 				files: {
@@ -29,6 +30,7 @@ module.exports = function(grunt) {
 			}
 		},
 
+		// CSS minifying task
 		cssmin: {
 			dist: {
 				files: {
@@ -40,6 +42,7 @@ module.exports = function(grunt) {
 			}
 		},
 
+		// JS minifying task
 		uglify: {
 			options: {
 				banner: '/*! <%= pkg.name %> | v<%= pkg.version %> | <%= pkg.author %> | <%= pkg.homepage %> | <%= pkg.license %> */ \n',
@@ -51,6 +54,7 @@ module.exports = function(grunt) {
 			}
 		},
 
+		// PHP server task
 		php: {
 			options: {
 				base: '<%= config.app %>',
@@ -60,6 +64,7 @@ module.exports = function(grunt) {
 			watch: {}
 		},
 
+		// Watch for changes task
 		watch: {
 			sass: {
 				files: ['<%= config.app %>/sass/{,*/}*.{scss,sass}'],
@@ -82,6 +87,7 @@ module.exports = function(grunt) {
 		'watch'
 	]);
 
+	// Production build task
 	grunt.registerTask('build', [
 		'sass:dist',
 		'cssmin:dist',
