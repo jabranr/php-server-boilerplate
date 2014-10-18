@@ -1,0 +1,32 @@
+{
+  "name": "php-server-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate that enables PHP built-in server as Grunt task along with optional Sass and JS tasks.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jabranr/php-server-boilerplate.git"
+  },
+  "keywords": [
+    "PHP",
+    "server"
+  ],
+  "author": "Jabran Rafique <hello@jabran.me>",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/jabranr/php-server-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jabranr/php-server-boilerplate",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-php": "^1.1.0",
+    "load-grunt-tasks": "^0.6.0"
+  }
+}
