@@ -32,6 +32,7 @@ This boilerplate has following development dependencies.
 Feel free to fork, contribute, redistribute etc.
 
 Use standard procedure:
+
 Fork -> checkout branch -> add feature -> commit & create pull request -> :+1:
 
 # License
