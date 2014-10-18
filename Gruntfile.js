@@ -55,7 +55,6 @@ module.exports = function(grunt) {
 			options: {
 				base: '<%= config.app %>',
 				hostname: 'localhost',
-				livereload: 35729,
 				open: true
 			},
 			watch: {}
