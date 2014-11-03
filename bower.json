@@ -1,0 +1,22 @@
+{
+  "name": "php-server-boilerplate",
+  "homepage": "https://github.com/jabranr/php-server-boilerplate",
+  "authors": [
+    "Jabran Rafique <hello@jabran.me>"
+  ],
+  "description": "A boilerplate that enables PHP built-in server as Grunt task along with optional Sass and JS tasks.",
+  "main": "app/index.html",
+  "keywords": [
+    "Boilerplate",
+    "PHP",
+    "Server"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
