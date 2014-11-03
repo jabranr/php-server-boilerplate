@@ -1,7 +1,7 @@
 PHP Server Boilerplate
 ======================
 
-A boilerplate that enables PHP built-in server as Grunt task along with optional Sass and JS tasks.
+A boilerplate that enables PHP built-in server as Grunt task along with optional Sass, JS and live reload tasks.
 
 # Installation & How to Use
 
@@ -10,6 +10,13 @@ A boilerplate that enables PHP built-in server as Grunt task along with optional
 #### For development, use: `$ grunt` or `$ grunt serve`
 
 This will run PHP built-in server (requires PHP 5.4+ installation) and watch for requests. Additional task will watch for changes in Sass files (.scss, .sass) and convert them to CSS.
+
+**Live Reload**
+Live Reload comes as out of the box feature with this boilerplate. Simple add reference to following script in your `HTML` or `PHP` files.
+
+```html
+<script src="http://localhost:35729/livereload.js"></script>
+```
 
 #### For production, use: `$ grunt build`
 

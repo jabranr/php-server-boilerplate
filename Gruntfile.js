@@ -70,7 +70,14 @@ module.exports = function(grunt) {
 				files: ['<%= config.app %>/sass/{,*/}*.{scss,sass}'],
 				tasks: ['sass'],
 				options: {
-					spawn: false
+					spawn: false,
+					livereload: 35729
+				}
+			},
+			php: {
+				files: ['<%= config.app %>/{,*/}*.{php,html}'],
+				options: {
+					livereload: 35729
 				}
 			}
 		}
