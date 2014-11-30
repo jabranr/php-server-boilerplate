@@ -34,6 +34,8 @@ This boilerplate has following development dependencies.
 + [grunt-php](https://www.npmjs.org/package/grunt-php)
 + [load-grunt-tasks](https://www.npmjs.org/package/load-grunt-tasks)
 
+> Mac users: Please note that if you run PHP built-in server from this task while built-in Apache is already running, the task may halt at certain point (tested for WordPress only). Then you should manually clear the process and rerun the task as [specified at StackOverflow here](http://stackoverflow.com/questions/25608908/stopping-in-built-php-server-on-mac-mavericks-livecode).
+
 # Contribute
 
 Feel free to fork, contribute, redistribute etc.
