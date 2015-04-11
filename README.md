@@ -46,4 +46,6 @@ Fork -> checkout branch -> add feature -> commit & create pull request -> :+1:
 
 # License
 
-MIT License
+MIT License - &copy; Jabran Rafique 2014
+
+[![Analytics](https://ga-beacon.appspot.com/UA-50688851-1/php-server-boilerplate)](https://github.com/igrigorik/ga-beacon)
